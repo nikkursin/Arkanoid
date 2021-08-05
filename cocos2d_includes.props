@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <CocosRoot>$(RootDir)engine\cocos2d\</CocosRoot>
+    <CocosExternal>$(CocosRoot)external\</CocosExternal>
+    <CocosLibs>$(RootDir)engine\lib\win_$(PlatformTarget)\$(Configuration)</CocosLibs>
+    <CocosLibsList>cocos2d.lib;external.lib;ext_recast.lib;ext_tinyxml2.lib;ext_xxhash.lib;ext_xxtea.lib;ext_clipper.lib;ext_edtaa3func.lib;ext_convertUTF.lib;ext_poly2tri.lib;ext_md5.lib;ext_unzip.lib;</CocosLibsList>
+    <CocosPrebuiltLibsList>$(CocosExternal)Box2D\prebuilt\win32\$(Configuration)\libbox2d.lib;$(CocosExternal)chipmunk\prebuilt\win32\$(Configuration)-lib\libchipmunk.lib;$(CocosExternal)bullet\prebuilt\win32\$(Configuration)\libbullet.lib;$(CocosExternal)freetype2\prebuilt\win32\freetype.lib;$(CocosExternal)jpeg\prebuilt\win32\libjpeg.lib;$(CocosExternal)webp\prebuilt\win32\libwebp.lib;$(CocosExternal)websockets\prebuilt\win32\websockets.lib;$(CocosExternal)openssl\prebuilt\win32\libssl.lib;$(CocosExternal)openssl\prebuilt\win32\libcrypto.lib;$(CocosExternal)uv\prebuilt\win32\uv_a.lib;$(CocosExternal)curl\prebuilt\win32\libcurl.lib;$(CocosExternal)png\prebuilt\win32\libpng.lib;$(CocosExternal)win32-specific\gles\prebuilt\glew32.lib;$(CocosExternal)win32-specific\icon\prebuilt\libiconv.lib;$(CocosExternal)win32-specific\MP3Decoder\prebuilt\libmpg123.lib;$(CocosExternal)win32-specific\OggDecoder\prebuilt\libogg.lib;$(CocosExternal)win32-specific\OggDecoder\prebuilt\libvorbis.lib;$(CocosExternal)win32-specific\OggDecoder\prebuilt\libvorbisfile.lib;$(CocosExternal)win32-specific\OpenalSoft\prebuilt\OpenAL32.lib;$(CocosExternal)glfw3\prebuilt\win32\glfw3.lib;$(CocosExternal)zlib\..\win32-specific\zlib\prebuilt\libzlib.lib;</CocosPrebuiltLibsList>
+    <CocosPlatformLibsList>ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;</CocosPlatformLibsList>
+	<DeployDir>$(RootDir)engine\deploy\</DeployDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(CocosRoot);$(CocosRoot)cocos;$(CocosRoot)extensions;$(CocosRoot)cocos\platform;$(CocosRoot)cocos\editor-support;$(CocosExternal)recast\..;$(CocosExternal)tinyxml2\.;$(CocosExternal)xxhash\.;$(CocosExternal)xxtea\.;$(CocosExternal)clipper\.;$(CocosExternal)edtaa3func\.;$(CocosExternal)ConvertUTF\.;$(CocosExternal)poly2tri\..;$(CocosExternal)md5\..;$(CocosExternal)unzip\.;$(CocosExternal)Box2D\include;$(CocosExternal)chipmunk\include;$(CocosExternal)freetype2\include\win32\freetype2;$(CocosExternal)bullet\include;$(CocosExternal)bullet\include\bullet;$(CocosExternal)jpeg\include\win32;$(CocosExternal)openssl\include\win32;$(CocosExternal)uv\include;$(CocosExternal)webp\include\win32;$(CocosExternal)websockets\include\win32;$(CocosExternal)curl\include\win32;$(CocosExternal)png\include\win32;$(CocosExternal)win32-specific\gles\include\OGLES;$(CocosExternal)win32-specific\icon\include;$(CocosExternal)win32-specific\MP3Decoder\include;$(CocosExternal)win32-specific\OggDecoder\include;$(CocosExternal)win32-specific\OpenalSoft\include;$(CocosExternal)glfw3\include\win32;$(CocosExternal)zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)'=='Debug'">COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)'=='Release'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CC_STATIC;LWS_WITH_LIBUV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(CocosLibs);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(TargetExt)'=='.exe'">$(CocosLibsList);$(CocosPrebuiltLibsList);$(CocosPlatformLibsList)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(TargetExt)'=='.dll'">$(CocosLibsList);$(CocosPrebuiltLibsList);$(CocosPlatformLibsList)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/IGNORE:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <CustomBuildStep>
+      <Command>xcopy $(DeployDir)*.dll "$(BinDir)" /Y /D</Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>$(BinDir)\*.dll </Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+</Project>

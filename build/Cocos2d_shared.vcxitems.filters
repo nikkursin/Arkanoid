@@ -1,0 +1,2160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="2d">
+      <UniqueIdentifier>{0faec7e8-ba5d-4535-bb8b-83f392424ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3d">
+      <UniqueIdentifier>{c557139d-a026-40b2-98af-17bcd970bfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{efd10cf1-cb5e-4277-839e-728401ca1b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{2091ddb5-11ab-44d7-bafa-1813c7f7588f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{bd4bd2b0-561a-4e78-b2d5-7e3815fc0c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="navmesh">
+      <UniqueIdentifier>{18670b79-3ebc-4c85-8846-c1af28f30233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{e04089a7-6beb-4e4e-8e74-87001bcbbb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{90e8b43e-ee5a-4ecc-aaa8-c3c51c1ed129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics3d">
+      <UniqueIdentifier>{67ccc65c-6b65-4144-a9ff-d706e96619ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{746ff47e-c10c-4683-9b05-47db8d82806e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{65451bbb-2522-4c05-b91a-31adbadfe3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{c3f29100-2091-4bb1-8e99-594150d6af9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio\win32">
+      <UniqueIdentifier>{504451c4-10fb-4edd-94b3-abae0aaa15c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\win32">
+      <UniqueIdentifier>{7c3bf258-487c-4379-b250-7e63d0cb6fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\win32\compat">
+      <UniqueIdentifier>{ec2d6939-bfe8-4687-86b3-3cc11fd52fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\backend">
+      <UniqueIdentifier>{a8db236d-b619-49e8-9559-5961586a06d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\shaders">
+      <UniqueIdentifier>{4f463ad0-e64d-4d65-9d60-ec0eb556ce12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\backend\metal">
+      <UniqueIdentifier>{36a6aa1a-ab5b-480c-872c-c4c46008f51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\backend\opengl">
+      <UniqueIdentifier>{c6a5d9f2-1472-4b44-8424-df6e77791095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\UIEditBox">
+      <UniqueIdentifier>{4d3f0f65-0da6-4d4c-a873-d09915fe3cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\UIWebView">
+      <UniqueIdentifier>{8eb1c6f3-522e-4db6-9266-cfc32e04cc33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\precheader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAction.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionCamera.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionCatmullRom.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionEase.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionGrid.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionGrid3D.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionInstant.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionInterval.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionManager.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionPageTurn3D.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionProgressTimer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionTiledGrid.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionTween.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAnimation.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAnimationCache.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAtlasNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAutoPolygon.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCCamera.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCCameraBackgroundBrush.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCClippingNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCClippingRectangleNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCComponent.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCComponentContainer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCDrawNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFastTMXLayer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFastTMXTiledMap.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFont.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontAtlas.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontAtlasCache.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontCharMap.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontFNT.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontFreeType.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCGrid.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLabel.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLabelAtlas.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLabelTextFormatter.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLayer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLight.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCMenu.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCMenuItem.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCMotionStreak.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCNodeGrid.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParallaxNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleBatchNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleExamples.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleSystem.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleSystemQuad.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCProgressTimer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCProtectedNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCRenderTexture.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCScene.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSprite.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSpriteBatchNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSpriteFrame.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSpriteFrameCache.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTextFieldTTF.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTileMapAtlas.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXLayer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXObjectGroup.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXTiledMap.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXXMLParser.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTransition.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTransitionPageTurn.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTransitionProgress.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTweenFunction.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CC3DProgramInfo.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAABB.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAnimate3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAnimation3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAttachNode.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBillBoard.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBundle3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBundle3DData.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBundleReader.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCFrustum.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMesh.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMeshSkin.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMeshVertexIndexData.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMotionStreak3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCOBB.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCObjLoader.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCPlane.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCRay.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSkeleton3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSkybox.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSprite3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSprite3DMaterial.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCTerrain.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCVertexAttribBinding.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\AudioEngine.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioCache.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoder.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoderManager.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoderMp3.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoderOgg.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioEngine-win32.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioPlayer.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\MciPlayer.cpp">
+      <Filter>audio\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\base64.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCAsyncTaskPool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCAutoreleasePool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccCArray.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCConfiguration.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCConsole.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCController.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCController-android.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCController-linux-win32.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCData.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCDirector.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEvent.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventAcceleration.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventController.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventCustom.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventDispatcher.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventFocus.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventKeyboard.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListener.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerAcceleration.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerController.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerCustom.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerFocus.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerKeyboard.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerMouse.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerTouch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventMouse.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventTouch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccFPSImages.c">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCIMEDispatcher.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCNinePatchImageParser.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCNS.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCProfiling.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCProperties.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccRandom.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCRef.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCScheduler.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCScriptSupport.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCStencilStateManager.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCTouch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccTypes.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCUserDefault.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCUserDefault-android.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccUTF8.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccUtils.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCValue.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\etc1.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ObjectFactory.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\pvr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\s3tc.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\TGAlib.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ZipUtils.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\atitc.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCGeometry.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCVertex.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Mat4.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\MathUtil.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Quaternion.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\TransformUtils.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec2.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec3.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec4.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCAffineTransform.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshAgent.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshObstacle.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshUtils.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMesh.cpp">
+      <Filter>navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader-android.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader-curl.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpClient.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpClient-android.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpCookie.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\SocketIO.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\Uri.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\WebSocket.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsContact.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsJoint.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsShape.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsWorld.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsBody.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DConstraint.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DDebugDrawer.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DObject.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DShape.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DWorld.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysicsSprite3D.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3D.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DComponent.cpp">
+      <Filter>physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCFileUtils.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCGLView.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCImage.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCSAXParser.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCApplication-win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCCommon-win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCDevice-win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCFileUtils-win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCStdC-win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCUtils-win32.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\inet_pton_mingw.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCCallbackCommand.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCCustomCommand.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCGroupCommand.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCMaterial.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCMeshCommand.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCPass.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCQuadCommand.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCRenderCommand.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCRenderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCRenderState.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\ccShaders.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTechnique.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTexture2D.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureAtlas.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureCache.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureCube.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureUtils.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTrianglesCommand.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\DepthStencilStateGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\DeviceGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\DeviceInfoGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\ProgramGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\RenderPipelineGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\ShaderModuleGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\TextureGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\UtilsGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\BufferGL.cpp">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\CommandBuffer.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\DepthStencilState.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Device.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Program.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ProgramCache.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ProgramState.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\RenderPassDescriptor.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ShaderCache.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ShaderModule.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Texture.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Types.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\VertexLayout.cpp">
+      <Filter>renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebView.cpp">
+      <Filter>ui\UIWebView</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebViewImpl-android.cpp">
+      <Filter>ui\UIWebView</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBox.cpp">
+      <Filter>ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-android.cpp">
+      <Filter>ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp">
+      <Filter>ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-linux.cpp">
+      <Filter>ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-stub.cpp">
+      <Filter>ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp">
+      <Filter>ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\CocosGUI.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIAbstractCheckButton.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIButton.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UICheckBox.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIHBox.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIHelper.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIImageView.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayout.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayoutComponent.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayoutManager.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayoutParameter.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIListView.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILoadingBar.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIPageView.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIPageViewIndicator.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIRadioButton.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIRelativeBox.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIRichText.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIScale9Sprite.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIScrollView.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIScrollViewBar.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UISlider.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITabControl.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIText.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITextAtlas.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITextBMFont.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITextField.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIVBox.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIVideoPlayer-android.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWidget.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\precheader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAction.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionCamera.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionCatmullRom.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionEase.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionGrid.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionGrid3D.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionInstant.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionInterval.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionManager.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionPageTurn3D.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionProgressTimer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionTiledGrid.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCActionTween.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAnimation.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAnimationCache.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAtlasNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCAutoPolygon.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCCamera.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCCameraBackgroundBrush.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCClippingNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCClippingRectangleNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCComponent.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCComponentContainer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCDrawNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFastTMXLayer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFastTMXTiledMap.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFont.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontAtlas.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontAtlasCache.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontCharMap.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontFNT.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCFontFreeType.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCGrid.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLabel.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLabelAtlas.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLabelTextFormatter.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLayer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCLight.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCMenu.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCMenuItem.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCMotionStreak.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCNodeGrid.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParallaxNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleBatchNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleExamples.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleSystem.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCParticleSystemQuad.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCProgressTimer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCProtectedNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCRenderTexture.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCScene.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSprite.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSpriteBatchNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSpriteFrame.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCSpriteFrameCache.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTextFieldTTF.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTileMapAtlas.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXLayer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXObjectGroup.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXTiledMap.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTMXXMLParser.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTransition.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTransitionPageTurn.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTransitionProgress.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CCTweenFunction.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CC3DProgramInfo.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAABB.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAnimate3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAnimation3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAnimationCurve.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAttachNode.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBillBoard.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBundle3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBundle3DData.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCBundleReader.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCFrustum.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMesh.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMeshSkin.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMeshVertexIndexData.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCMotionStreak3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCOBB.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCObjLoader.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCPlane.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCRay.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSkeleton3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSkybox.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSprite3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCSprite3DMaterial.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCTerrain.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCVertexAttribBinding.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\cocos3d.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioCache.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoder.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoderManager.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoderMp3.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioDecoderOgg.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioEngine-win32.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioMacros.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\AudioPlayer.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\audio\win32\MciPlayer.h">
+      <Filter>audio\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\base64.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCAsyncTaskPool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCAutoreleasePool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccCArray.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccConfig.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCConfiguration.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCConsole.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccConstants.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCController.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCData.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCDirector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEnumClass.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEvent.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventAcceleration.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventController.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventCustom.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventDispatcher.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventFocus.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventKeyboard.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListener.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerAcceleration.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerController.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerCustom.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerFocus.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerKeyboard.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerMouse.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventListenerTouch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventMouse.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventTouch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCEventType.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccFPSImages.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCGameController.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCIMEDelegate.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCIMEDispatcher.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccMacros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCMap.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCNinePatchImageParser.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCNS.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCProfiling.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCProperties.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCProtocols.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccRandom.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCRef.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCRefPtr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCScheduler.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCScriptSupport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCStencilStateManager.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCTouch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccTypes.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCUserDefault.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccUTF8.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ccUtils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCValue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCVector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\etc1.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\firePngData.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ObjectFactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\pvr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\s3tc.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\TGAlib.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\uthash.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\utlist.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\ZipUtils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\atitc.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCGeometry.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCMath.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCMathBase.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCVertex.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Mat4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\MathUtil.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\TransformUtils.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CCAffineTransform.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMesh.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshAgent.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshDebugDraw.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshObstacle.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CCNavMeshUtils.h">
+      <Filter>navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader-android.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader-apple.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader-curl.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCIDownloaderImpl.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpAsynConnection-apple.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpClient.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpCookie.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpRequest.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpResponse.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\SocketIO.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\Uri.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\WebSocket.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsContact.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsHelper.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsJoint.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsShape.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsWorld.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\cpCompat62.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CCPhysicsBody.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DComponent.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DConstraint.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DDebugDrawer.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DObject.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DShape.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3DWorld.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysicsSprite3D.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CCPhysics3D.h">
+      <Filter>physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCStdC.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCApplication.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCApplicationProtocol.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCCommon.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCDevice.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCFileUtils.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCGL.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCGLView.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCImage.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCPlatformConfig.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCPlatformDefine.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCPlatformMacros.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CCSAXParser.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\compat\stdint.h">
+      <Filter>platform\win32\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\inet_pton_mingw.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCApplication-win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCFileUtils-win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCGL-win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCStdC-win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\win32\CCUtils-win32.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCCallbackCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCCustomCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCGroupCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCMaterial.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCMeshCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCPass.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCPipelineDescriptor.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCQuadCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCRenderCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCRenderCommandPool.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCRenderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCRenderState.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\ccShaders.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTechnique.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTexture2D.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureAtlas.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureCache.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureCube.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTextureUtils.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CCTrianglesCommand.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\BufferMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\CommandBufferMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\DepthStencilStateMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\DeviceInfoMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\DeviceMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\ProgramMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\RenderPipelineMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\ShaderModuleMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\TextureMTL.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\Utils.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\BufferManager.h">
+      <Filter>renderer\backend\metal</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\BufferGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\CommandBufferGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\DepthStencilStateGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\DeviceGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\DeviceInfoGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\ProgramGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\RenderPipelineGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\ShaderModuleGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\TextureGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\opengl\UtilsGL.h">
+      <Filter>renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Backend.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Buffer.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\CommandBuffer.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\DepthStencilState.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Device.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\DeviceInfo.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Macros.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Program.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ProgramCache.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ProgramState.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\RenderPassDescriptor.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\RenderPipeline.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\RenderPipelineDescriptor.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ShaderCache.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\ShaderModule.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Texture.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\Types.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\VertexLayout.h">
+      <Filter>renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebView.h">
+      <Filter>ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebViewImpl-android.h">
+      <Filter>ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebViewImpl-ios.h">
+      <Filter>ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebView-inl.h">
+      <Filter>ui\UIWebView</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBox.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-android.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-common.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-ios.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-linux.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-mac.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-win32.h">
+      <Filter>ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\CocosGUI.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\GUIDefine.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\GUIExport.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIAbstractCheckButton.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIButton.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UICheckBox.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIHBox.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIHelper.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIImageView.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayout.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayoutComponent.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayoutManager.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILayoutParameter.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIListView.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UILoadingBar.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIPageView.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIPageViewIndicator.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIRadioButton.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIRelativeBox.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIRichText.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIScale9Sprite.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIScrollView.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIScrollViewBar.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UISlider.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITabControl.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIText.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITextAtlas.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITextBMFont.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UITextField.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIVBox.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIVideoPlayer.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWidget.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\2d\CMakeLists.txt">
+      <Filter>2d</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CMakeLists.txt">
+      <Filter>3d</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CMakeLists.txt">
+      <Filter>base</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\CMakeLists.txt">
+      <Filter>math</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\navmesh\CMakeLists.txt">
+      <Filter>navmesh</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CMakeLists.txt">
+      <Filter>network</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics\CMakeLists.txt">
+      <Filter>physics</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\physics3d\CMakeLists.txt">
+      <Filter>physics3d</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\platform\CMakeLists.txt">
+      <Filter>platform</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\CMakeLists.txt">
+      <Filter>renderer</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\CMakeLists.txt">
+      <Filter>ui</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\3d\CCAnimationCurve.inl">
+      <Filter>3d</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCController-apple.mm">
+      <Filter>base</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\base\CCUserDefault-apple.mm">
+      <Filter>base</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Mat4.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\MathUtil.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\MathUtilNeon.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\MathUtilNeon64.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\MathUtilSSE.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Quaternion.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec2.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec3.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\math\Vec4.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\CCDownloader-apple.mm">
+      <Filter>network</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpAsynConnection-apple.m">
+      <Filter>network</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\network\HttpClient-apple.mm">
+      <Filter>network</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_colorTexture.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_particle.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_particle.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_positionNormalTexture.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_positionTexture.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_skybox.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_skybox.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_terrain.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_terrain.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\cameraClear.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\cameraClear.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\etc1.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\etc1_Gray.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\label_distanceFieldGlow.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\label_distanceNormal.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\label_normal.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\label_outline.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\layer_radialGradient.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\lineColor.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\lineColor.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\position.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionColor.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionColor.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionColorLengthTexture.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionColorLengthTexture.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionColorTextureAsPointsize.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionNoMVP.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionTexture.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionTexture.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionTextureColor.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionTextureColor.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionTextureColorAlphaTest.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionTextureUColor.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionTextureUColor.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionUColor.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\positionUColor.vert">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\ui_Gray.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_color.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_colorNormal.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\shaders\3D_colorNormalTexture.frag">
+      <Filter>renderer\shaders</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\BufferManager.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\BufferMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\CommandBufferMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\DepthStencilStateMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\DeviceInfoMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\DeviceMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\ProgramMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\RenderPipelineMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\ShaderModuleMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\TextureMTL.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\renderer\backend\metal\Utils.mm">
+      <Filter>renderer\backend\metal</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebView.mm">
+      <Filter>ui\UIWebView</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIWebView\UIWebViewImpl-ios.mm">
+      <Filter>ui\UIWebView</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-ios.mm">
+      <Filter>ui\UIEditBox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIEditBox\UIEditBoxImpl-mac.mm">
+      <Filter>ui\UIEditBox</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\engine\cocos2d\cocos\ui\UIVideoPlayer-ios.mm">
+      <Filter>ui</Filter>
+    </None>
+  </ItemGroup>
+</Project>

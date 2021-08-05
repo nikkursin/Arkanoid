@@ -1,0 +1,5579 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cocos2d::backend::Attribute' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/ProgramState.h"
+                },
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 16,
+                  "endLine": 136,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getAttributeLocation@ProgramState@backend@cocos2d@@QBEHW4Attribute@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cocos2d::ScriptEventType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/CCScriptSupport.h"
+                },
+                "region": {
+                  "startLine": 609,
+                  "startColumn": 5,
+                  "endLine": 609,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScriptEvent@cocos2d@@QAE@W4ScriptEventType@1@PAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cocos2d::ccScriptType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/CCScriptSupport.h"
+                },
+                "region": {
+                  "startLine": 651,
+                  "startColumn": 44,
+                  "endLine": 651,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getScriptType@ScriptEngineProtocol@cocos2d@@UAE?AW4ccScriptType@2@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::AsyncTaskPool::ThreadTasks::AsyncTaskCallBack::callbackParam' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/CCAsyncTaskPool.h"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 9,
+                  "endLine": 116,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AsyncTaskCallBack@ThreadTasks@AsyncTaskPool@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::AsyncTaskPool::ThreadTasks::AsyncTaskCallBack::callbackParam"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Repeat::_times' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5,
+                  "endLine": 246,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Repeat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Repeat::_times"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Repeat::_nextDt' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5,
+                  "endLine": 246,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Repeat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Repeat::_nextDt"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Repeat::_total' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5,
+                  "endLine": 246,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Repeat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Repeat::_total"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Repeat::_actionInstant' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5,
+                  "endLine": 246,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Repeat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Repeat::_actionInstant"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Repeat::_innerAction' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 5,
+                  "endLine": 246,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Repeat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Repeat::_innerAction"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ActionInterval::_done' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 1,
+                  "endLine": 123,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ActionInterval@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ActionInterval::_done"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ActionInterval::_elapsed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 1,
+                  "endLine": 123,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ActionInterval@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ActionInterval::_elapsed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ActionInterval::_firstTick' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 1,
+                  "endLine": 123,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ActionInterval@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ActionInterval::_firstTick"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::JumpBy::_jumps' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 852,
+                  "startColumn": 5,
+                  "endLine": 852,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0JumpBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::JumpBy::_jumps"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::JumpBy::_height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 852,
+                  "startColumn": 5,
+                  "endLine": 852,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0JumpBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::JumpBy::_height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_endScaleZ' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_endScaleZ"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_deltaY' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_deltaY"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_deltaX' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_deltaX"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_deltaZ' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_deltaZ"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_scaleZ' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_scaleZ"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_scaleY' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_scaleY"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_startScaleZ' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_startScaleZ"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_scaleX' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_scaleX"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_startScaleX' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_startScaleX"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_startScaleY' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_startScaleY"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_endScaleY' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_endScaleY"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ScaleTo::_endScaleX' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1059,
+                  "startColumn": 5,
+                  "endLine": 1059,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ScaleTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ScaleTo::_endScaleX"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Blink::_times' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1172,
+                  "startColumn": 5,
+                  "endLine": 1172,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Blink@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Blink::_times"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Blink::_originalState' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1172,
+                  "startColumn": 5,
+                  "endLine": 1172,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Blink@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Blink::_originalState"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::FadeTo::_fromOpacity' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1217,
+                  "startColumn": 5,
+                  "endLine": 1217,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FadeTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::FadeTo::_fromOpacity"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::FadeTo::_toOpacity' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1217,
+                  "startColumn": 5,
+                  "endLine": 1217,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0FadeTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::FadeTo::_toOpacity"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TintBy::_fromR' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1383,
+                  "startColumn": 5,
+                  "endLine": 1383,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TintBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TintBy::_fromR"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TintBy::_fromB' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1383,
+                  "startColumn": 5,
+                  "endLine": 1383,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TintBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TintBy::_fromB"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TintBy::_fromG' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1383,
+                  "startColumn": 5,
+                  "endLine": 1383,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TintBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TintBy::_fromG"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TintBy::_deltaG' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1383,
+                  "startColumn": 5,
+                  "endLine": 1383,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TintBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TintBy::_deltaG"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TintBy::_deltaR' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1383,
+                  "startColumn": 5,
+                  "endLine": 1383,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TintBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TintBy::_deltaR"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TintBy::_deltaB' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1383,
+                  "startColumn": 5,
+                  "endLine": 1383,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TintBy@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TintBy::_deltaB"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ActionFloat::_delta' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1628,
+                  "startColumn": 5,
+                  "endLine": 1628,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ActionFloat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ActionFloat::_delta"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ActionFloat::_to' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1628,
+                  "startColumn": 5,
+                  "endLine": 1628,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ActionFloat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ActionFloat::_to"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ActionFloat::_from' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+                },
+                "region": {
+                  "startLine": 1628,
+                  "startColumn": 5,
+                  "endLine": 1628,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ActionFloat@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ActionFloat::_from"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::EaseRateAction::_rate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionEase.h"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 5,
+                  "endLine": 105,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EaseRateAction@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::EaseRateAction::_rate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::EaseElastic::_period' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionEase.h"
+                },
+                "region": {
+                  "startLine": 441,
+                  "startColumn": 5,
+                  "endLine": 441,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EaseElastic@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::EaseElastic::_period"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::EaseBezierAction::_p3' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionEase.h"
+                },
+                "region": {
+                  "startLine": 540,
+                  "startColumn": 5,
+                  "endLine": 540,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EaseBezierAction@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::EaseBezierAction::_p3"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::EaseBezierAction::_p1' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionEase.h"
+                },
+                "region": {
+                  "startLine": 540,
+                  "startColumn": 5,
+                  "endLine": 540,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EaseBezierAction@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::EaseBezierAction::_p1"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::EaseBezierAction::_p2' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionEase.h"
+                },
+                "region": {
+                  "startLine": 540,
+                  "startColumn": 5,
+                  "endLine": 540,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EaseBezierAction@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::EaseBezierAction::_p2"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::EaseBezierAction::_p0' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionEase.h"
+                },
+                "region": {
+                  "startLine": 540,
+                  "startColumn": 5,
+                  "endLine": 540,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0EaseBezierAction@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::EaseBezierAction::_p0"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ActionInstant::_done' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInstant.h"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 1,
+                  "endLine": 77,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ActionInstant@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ActionInstant::_done"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::GridAction::_gridNodeTarget' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 5,
+                  "endLine": 68,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0GridAction@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::GridAction::_gridNodeTarget"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::AccelDeccelAmplitude::_other' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 5,
+                  "endLine": 225,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AccelDeccelAmplitude@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::AccelDeccelAmplitude::_other"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::AccelDeccelAmplitude::_rate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 5,
+                  "endLine": 225,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AccelDeccelAmplitude@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::AccelDeccelAmplitude::_rate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::AccelAmplitude::_other' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 277,
+                  "startColumn": 5,
+                  "endLine": 277,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AccelAmplitude@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::AccelAmplitude::_other"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::AccelAmplitude::_rate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 277,
+                  "startColumn": 5,
+                  "endLine": 277,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0AccelAmplitude@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::AccelAmplitude::_rate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::DeccelAmplitude::_rate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 5,
+                  "endLine": 323,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DeccelAmplitude@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::DeccelAmplitude::_rate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::DeccelAmplitude::_other' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 5,
+                  "endLine": 323,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0DeccelAmplitude@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::DeccelAmplitude::_other"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::StopGrid::_gridNodeTarget' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 365,
+                  "startColumn": 5,
+                  "endLine": 365,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0StopGrid@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::StopGrid::_gridNodeTarget"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ReuseGrid::_times' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 5,
+                  "endLine": 396,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ReuseGrid@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ReuseGrid::_times"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ReuseGrid::_gridNodeTarget' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+                },
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 5,
+                  "endLine": 396,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ReuseGrid@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ReuseGrid::_gridNodeTarget"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves3D::_amplitude' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 5,
+                  "endLine": 85,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves3D::_amplitude"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves3D::_amplitudeRate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 5,
+                  "endLine": 85,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves3D::_amplitudeRate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves3D::_waves' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 5,
+                  "endLine": 85,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves3D::_waves"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Lens3D::_dirty' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 5,
+                  "endLine": 228,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Lens3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Lens3D::_dirty"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Lens3D::_concave' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 5,
+                  "endLine": 228,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Lens3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Lens3D::_concave"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Lens3D::_radius' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 5,
+                  "endLine": 228,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Lens3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Lens3D::_radius"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Lens3D::_lensEffect' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 5,
+                  "endLine": 228,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Lens3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Lens3D::_lensEffect"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Ripple3D::_amplitudeRate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 5,
+                  "endLine": 316,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Ripple3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Ripple3D::_amplitudeRate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Ripple3D::_amplitude' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 5,
+                  "endLine": 316,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Ripple3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Ripple3D::_amplitude"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Ripple3D::_radius' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 5,
+                  "endLine": 316,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Ripple3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Ripple3D::_radius"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Ripple3D::_waves' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 316,
+                  "startColumn": 5,
+                  "endLine": 316,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Ripple3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Ripple3D::_waves"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Shaky3D::_shakeZ' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 367,
+                  "startColumn": 5,
+                  "endLine": 367,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Shaky3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Shaky3D::_shakeZ"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Shaky3D::_randrange' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 367,
+                  "startColumn": 5,
+                  "endLine": 367,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Shaky3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Shaky3D::_randrange"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Liquid::_waves' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 5,
+                  "endLine": 434,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Liquid@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Liquid::_waves"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Liquid::_amplitude' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 5,
+                  "endLine": 434,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Liquid@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Liquid::_amplitude"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Liquid::_amplitudeRate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 5,
+                  "endLine": 434,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Liquid@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Liquid::_amplitudeRate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves::_amplitudeRate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 5,
+                  "endLine": 505,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves::_amplitudeRate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves::_amplitude' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 5,
+                  "endLine": 505,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves::_amplitude"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves::_waves' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 5,
+                  "endLine": 505,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves::_waves"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves::_vertical' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 5,
+                  "endLine": 505,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves::_vertical"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Waves::_horizontal' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 5,
+                  "endLine": 505,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Waves@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Waves::_horizontal"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Twirl::_amplitude' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 590,
+                  "startColumn": 5,
+                  "endLine": 590,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Twirl@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Twirl::_amplitude"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Twirl::_amplitudeRate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 590,
+                  "startColumn": 5,
+                  "endLine": 590,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Twirl@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Twirl::_amplitudeRate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Twirl::_twirls' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+                },
+                "region": {
+                  "startLine": 590,
+                  "startColumn": 5,
+                  "endLine": 590,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Twirl@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Twirl::_twirls"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ProgressTo::_to' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionProgressTimer.h"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 5,
+                  "endLine": 65,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ProgressTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ProgressTo::_to"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ProgressTo::_from' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionProgressTimer.h"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 5,
+                  "endLine": 65,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ProgressTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ProgressTo::_from"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ProgressFromTo::_from' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionProgressTimer.h"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 5,
+                  "endLine": 109,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ProgressFromTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ProgressFromTo::_from"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ProgressFromTo::_to' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionProgressTimer.h"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 5,
+                  "endLine": 109,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ProgressFromTo@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ProgressFromTo::_to"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShakyTiles3D::_randrange' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 5,
+                  "endLine": 63,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShakyTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShakyTiles3D::_randrange"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShakyTiles3D::_shakeZ' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 5,
+                  "endLine": 63,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShakyTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShakyTiles3D::_shakeZ"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShatteredTiles3D::_shatterZ' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 5,
+                  "endLine": 108,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShatteredTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShatteredTiles3D::_shatterZ"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShatteredTiles3D::_randrange' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 5,
+                  "endLine": 108,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShatteredTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShatteredTiles3D::_randrange"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShatteredTiles3D::_once' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 5,
+                  "endLine": 108,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShatteredTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShatteredTiles3D::_once"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShuffleTiles::_tilesCount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 5,
+                  "endLine": 159,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShuffleTiles@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShuffleTiles::_tilesCount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShuffleTiles::_tilesOrder' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 5,
+                  "endLine": 159,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShuffleTiles@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShuffleTiles::_tilesOrder"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShuffleTiles::_tiles' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 5,
+                  "endLine": 159,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShuffleTiles@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShuffleTiles::_tiles"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::ShuffleTiles::_seed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 5,
+                  "endLine": 159,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ShuffleTiles@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::ShuffleTiles::_seed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TurnOffTiles::_tilesOrder' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 366,
+                  "startColumn": 5,
+                  "endLine": 366,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TurnOffTiles@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TurnOffTiles::_tilesOrder"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TurnOffTiles::_tilesCount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 366,
+                  "startColumn": 5,
+                  "endLine": 366,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TurnOffTiles@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TurnOffTiles::_tilesCount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::TurnOffTiles::_seed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 366,
+                  "startColumn": 5,
+                  "endLine": 366,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TurnOffTiles@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::TurnOffTiles::_seed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::WavesTiles3D::_amplitude' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 5,
+                  "endLine": 431,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0WavesTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::WavesTiles3D::_amplitude"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::WavesTiles3D::_amplitudeRate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 5,
+                  "endLine": 431,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0WavesTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::WavesTiles3D::_amplitudeRate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::WavesTiles3D::_waves' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 5,
+                  "endLine": 431,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0WavesTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::WavesTiles3D::_waves"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::JumpTiles3D::_amplitude' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 497,
+                  "startColumn": 5,
+                  "endLine": 497,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0JumpTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::JumpTiles3D::_amplitude"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::JumpTiles3D::_amplitudeRate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 497,
+                  "startColumn": 5,
+                  "endLine": 497,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0JumpTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::JumpTiles3D::_amplitudeRate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::JumpTiles3D::_jumps' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 497,
+                  "startColumn": 5,
+                  "endLine": 497,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0JumpTiles3D@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::JumpTiles3D::_jumps"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::SplitRows::_rows' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 541,
+                  "startColumn": 5,
+                  "endLine": 541,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0SplitRows@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::SplitRows::_rows"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::SplitCols::_cols' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0SplitCols@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::SplitCols::_cols"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::LabelAtlas::_mapStartChar' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCLabelAtlas.h"
+                },
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 5,
+                  "endLine": 100,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LabelAtlas@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::LabelAtlas::_mapStartChar"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Menu::_enabled' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCMenu.h"
+                },
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 5,
+                  "endLine": 166,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Menu@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Menu::_enabled"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::Menu::_state' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCMenu.h"
+                },
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 5,
+                  "endLine": 166,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Menu@cocos2d@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::Menu::_state"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cocos2d::RenderQueue::QUEUE_GROUP' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/CCRenderer.h"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 34,
+                  "endLine": 105,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?getSubQueue@RenderQueue@cocos2d@@QAEAAV?$vector@PAVRenderCommand@cocos2d@@V?$allocator@PAVRenderCommand@cocos2d@@@std@@@std@@W4QUEUE_GROUP@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointLimit::_min' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 5,
+                  "endLine": 220,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointLimit@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointLimit::_min"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointLimit::_max' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 5,
+                  "endLine": 220,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointLimit@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointLimit::_max"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointPin::_useSpecificAnchr' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 5,
+                  "endLine": 257,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointPin@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointPin::_useSpecificAnchr"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointSpring::_damping' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 342,
+                  "startColumn": 5,
+                  "endLine": 342,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointSpring@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointSpring::_damping"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointSpring::_stiffness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 342,
+                  "startColumn": 5,
+                  "endLine": 342,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointSpring@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointSpring::_stiffness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointRotarySpring::_damping' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 5,
+                  "endLine": 430,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointRotarySpring@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointRotarySpring::_damping"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointRotarySpring::_stiffness' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 5,
+                  "endLine": 430,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointRotarySpring@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointRotarySpring::_stiffness"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointRotaryLimit::_max' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 474,
+                  "startColumn": 5,
+                  "endLine": 474,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointRotaryLimit@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointRotaryLimit::_max"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointRotaryLimit::_min' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 474,
+                  "startColumn": 5,
+                  "endLine": 474,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointRotaryLimit@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointRotaryLimit::_min"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointRatchet::_ratchet' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 515,
+                  "startColumn": 5,
+                  "endLine": 515,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointRatchet@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointRatchet::_ratchet"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointRatchet::_phase' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 515,
+                  "startColumn": 5,
+                  "endLine": 515,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointRatchet@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointRatchet::_phase"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointGear::_ratio' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 551,
+                  "startColumn": 5,
+                  "endLine": 551,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointGear@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointGear::_ratio"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointGear::_phase' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 551,
+                  "startColumn": 5,
+                  "endLine": 551,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointGear@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointGear::_phase"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cocos2d::PhysicsJointMotor::_rate' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+                },
+                "region": {
+                  "startLine": 579,
+                  "startColumn": 5,
+                  "endLine": 579,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0PhysicsJointMotor@cocos2d@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "cocos2d::PhysicsJointMotor::_rate"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29913.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0075B1C0 -il C:\\Users\\User\\AppData\\Local\\Temp\\_CL_35b70134ast -typedil -f ..\\sources\\Ball.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829913 -D_MSC_BUILD=0 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\ -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\cocos -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\extensions -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\cocos\\platform -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\cocos\\editor-support -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\tinyxml2 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\xxhash -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\xxtea -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\clipper -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\edtaa3func -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\ConvertUTF -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\unzip -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\Box2D\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\chipmunk\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\freetype2\\include\\win32\\freetype2 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\bullet\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\bullet\\include\\bullet -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\jpeg\\include\\win32 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\openssl\\include\\win32 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\uv\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\webp\\include\\win32 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\websockets\\include\\win32 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\curl\\include\\win32 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\png\\include\\win32 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\win32-specific\\gles\\include\\OGLES -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\win32-specific\\icon\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\win32-specific\\MP3Decoder\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\win32-specific\\OggDecoder\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\win32-specific\\OpenalSoft\\include -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\glfw3\\include\\win32 -I D:\\pipestudio_2d_programmers_test\\engine\\cocos2d\\external\\win32-specific\\zlib\\include -I D:\\pipestudio_2d_programmers_test\\build\\ -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DCC_STATIC -DLWS_WITH_LIBUV -DCOCOS2D_DEBUG=1 -DWIN32 -D_WINDOWS -D_WIN32 -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++17 -FoD:\\pipestudio_2d_programmers_test\\build\\Arkanoid_Debug_Win32\\\\Intermediate\\Ball.obj -FdD:\\pipestudio_2d_programmers_test\\build\\Arkanoid_Debug_Win32\\\\Intermediate\\vc142.pdb -Gd -analyze:projectdirectory D:\\pipestudio_2d_programmers_test\\build -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/ProgramState.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d7a403e76c8249dc493566524a5530f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/CCScriptSupport.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5b99ab4ad83ffb4b4d961c5b5b7c15c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/CCAsyncTaskPool.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "918bd68cffb72f37257ebc68b1028f16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInterval.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b77258f1b2873415934cd9e075d44a27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionEase.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c3e2204a23380d3e2944e87d9b4b41b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionInstant.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "996f59f9ababc3e2d3f00923c9d4eaee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "afc6b2290ab917bd354ec92811d7c06c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionGrid3D.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a423bb65ddb0a2c963635b5755693701"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionProgressTimer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0d244386a61da9e699b9f4e88b2a00bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCActionTiledGrid.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9665204acaf9f417b403fb69bd2ff682"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCLabelAtlas.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "dd647a987c4e57cea889dfaf3d2dbf38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/CCMenu.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9ae088dd17da7f17469c35e95c1102cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/CCRenderer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5c96a1697acdb8d6a39f1e02fb74d08b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/CCPhysicsJoint.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "517982818ed3b13b1f6ae43f50007152"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/paddle.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a10fe8d05874c6e1c28c61d4939f2594"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/paddle.h"
+          },
+          "hashes": {
+            "md5": "1bd8f6aba74ceb1ae62d1ec10ff076ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/cocos2d.h"
+          },
+          "hashes": {
+            "md5": "74d513105d0a0219470bbac5daf0a08f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccconfig.h"
+          },
+          "hashes": {
+            "md5": "a595296fb895958664745e2c3ba4b89e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccplatformconfig.h"
+          },
+          "hashes": {
+            "md5": "5101df015292b332a6fec6b3c133011e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccplatformmacros.h"
+          },
+          "hashes": {
+            "md5": "fffff981688322fb5439d2f136043065"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccplatformdefine.h"
+          },
+          "hashes": {
+            "md5": "a4ca7960a2f37bb2707211f557f5eaeb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/win32/ccplatformdefine-win32.h"
+          },
+          "hashes": {
+            "md5": "7c188e6190879d1de7b175694fce3c5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccdirector.h"
+          },
+          "hashes": {
+            "md5": "83d9660e3b4ff92159a9152bd50e3754"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccref.h"
+          },
+          "hashes": {
+            "md5": "7d3df4b00f6264a9af4b8e052d26cb79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccvector.h"
+          },
+          "hashes": {
+            "md5": "34bbde5bc517fcba0bc73edf95d889fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccmacros.h"
+          },
+          "hashes": {
+            "md5": "b47e30a3eb7e81a7e85564fd3d8cc593"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccconsole.h"
+          },
+          "hashes": {
+            "md5": "b7280efa7987ff9fba0300fe278b6972"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccstdc.h"
+          },
+          "hashes": {
+            "md5": "3cc5526ac908402996dbae95dbeea86b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/win32/ccstdc-win32.h"
+          },
+          "hashes": {
+            "md5": "ed1cc29b45613090f788b78f96cdbd75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccrandom.h"
+          },
+          "hashes": {
+            "md5": "2c00c3c9165f89fbe6e6ac32609cbb9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccscene.h"
+          },
+          "hashes": {
+            "md5": "aa638c1d36995094f9ec8d3fbc559d21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccnode.h"
+          },
+          "hashes": {
+            "md5": "3e1ac6fc669543d259bc1d29c84bf6aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccprotocols.h"
+          },
+          "hashes": {
+            "md5": "4fff9052bf6c48f1c33fe83c903d7ef6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cctypes.h"
+          },
+          "hashes": {
+            "md5": "d90095ec7ec65392ac5da1fa3cc3717f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/ccgeometry.h"
+          },
+          "hashes": {
+            "md5": "cf162b99d7fc618fa8a52c1055d4cbb6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/ccmath.h"
+          },
+          "hashes": {
+            "md5": "cea112edcb383ba26f4fa3ce93dd3b31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/vec2.h"
+          },
+          "hashes": {
+            "md5": "667e3c675408c484015e9625db16fb10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/ccmathbase.h"
+          },
+          "hashes": {
+            "md5": "fda976d7b419997abef26733e20fe14a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/vec2.inl"
+          },
+          "hashes": {
+            "md5": "bce9f0bc2d75fb63d139ba1e65a1c00c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/vec3.h"
+          },
+          "hashes": {
+            "md5": "9122c45e67a2b1bdf31287fd3dfc07eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/vec3.inl"
+          },
+          "hashes": {
+            "md5": "c07d00772da4c098cd67d541252cc9eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/mat4.h"
+          },
+          "hashes": {
+            "md5": "ec2a4eacf512de1f3752e7cbf6da141a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/vec4.h"
+          },
+          "hashes": {
+            "md5": "931c030fc080563d77ac49617ec0e2f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/vec4.inl"
+          },
+          "hashes": {
+            "md5": "9358555a623f95725bd51c3ab04662f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/mat4.inl"
+          },
+          "hashes": {
+            "md5": "e6cfbef0da5e7da18aaff06d1d00de6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/quaternion.h"
+          },
+          "hashes": {
+            "md5": "b2d6db70fe144c6c7cd1004c298de1f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/quaternion.inl"
+          },
+          "hashes": {
+            "md5": "68def99a3088d3b7d6c500b9a43edef0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccenumclass.h"
+          },
+          "hashes": {
+            "md5": "e3ce2c7009eea5d739fa19921b35c9fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/types.h"
+          },
+          "hashes": {
+            "md5": "e71d3134c999342eb3aba73cddb26ac4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/macros.h"
+          },
+          "hashes": {
+            "md5": "5609b53413f067016915f7852088c9f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cctexture2d.h"
+          },
+          "hashes": {
+            "md5": "46e297e2112c9179c4115471ac3a59e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cccustomcommand.h"
+          },
+          "hashes": {
+            "md5": "701e53646060ad9ee5490d88083a3d9d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccrendercommand.h"
+          },
+          "hashes": {
+            "md5": "680601f5c4a558afc77edb14c4a8f664"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccpipelinedescriptor.h"
+          },
+          "hashes": {
+            "md5": "f092c883601a9b5cc5b9924ee23433b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/depthstencilstate.h"
+          },
+          "hashes": {
+            "md5": "48431c24afdbe6ea8abc923013b3edbc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/texture.h"
+          },
+          "hashes": {
+            "md5": "95cbf6509d2c1ce5fa2da9f66322b169"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/vertexlayout.h"
+          },
+          "hashes": {
+            "md5": "fdacf4bd75dcc5c010907a7895afcdbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/renderpassdescriptor.h"
+          },
+          "hashes": {
+            "md5": "14e78d9d01af1290e06342135fef6326"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlistenercustom.h"
+          },
+          "hashes": {
+            "md5": "79d856ecd178269e78b5a44211c06870"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlistener.h"
+          },
+          "hashes": {
+            "md5": "020e0bcc135eeaba41357e655eeeb4e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/program.h"
+          },
+          "hashes": {
+            "md5": "a80de23004160783fca192d135fc099c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/shadercache.h"
+          },
+          "hashes": {
+            "md5": "698e90759c5349424d652110c7ea680c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/backend/shadermodule.h"
+          },
+          "hashes": {
+            "md5": "2641331d95f2ef2bc8e83a8ab41a4a92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/cccommon.h"
+          },
+          "hashes": {
+            "md5": "de96c662430bb58c93f1f74df0cc1031"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cctouch.h"
+          },
+          "hashes": {
+            "md5": "afe3b12abdad5b1f2142e842d6bac00b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventtouch.h"
+          },
+          "hashes": {
+            "md5": "45ce955b3a94e69508ba58e45608504a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccevent.h"
+          },
+          "hashes": {
+            "md5": "cb57a895e4ba4d6d902e06d6573ea66f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventkeyboard.h"
+          },
+          "hashes": {
+            "md5": "1e65fa3625845bb6c907cb6fe4fefa47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/ccaffinetransform.h"
+          },
+          "hashes": {
+            "md5": "894def74472dd86bbd1639d3b5b9b3a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cccomponentcontainer.h"
+          },
+          "hashes": {
+            "md5": "d1edf0dd2bfcaeb7f54b417c4a18e748"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccmap.h"
+          },
+          "hashes": {
+            "md5": "1cbcaff99b7272b1b42b0604faba05ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cccomponent.h"
+          },
+          "hashes": {
+            "md5": "942cc7116dba2da0c9e6b2eedc3bff5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/ccphysicsbody.h"
+          },
+          "hashes": {
+            "md5": "b8679730d7cb8e460f63711b138341a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/ccphysicsshape.h"
+          },
+          "hashes": {
+            "md5": "273801a2933aa1b826a0b717ba908613"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccglview.h"
+          },
+          "hashes": {
+            "md5": "ac972d0c9c2913be43ff408176f95332"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccscheduler.h"
+          },
+          "hashes": {
+            "md5": "1de4ed67acf252f6f6abefd55fbdb948"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/uthash.h"
+          },
+          "hashes": {
+            "md5": "d493005f790a12ee6d07bf45b3449d4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccautoreleasepool.h"
+          },
+          "hashes": {
+            "md5": "16c2fbd9daef56a76ff29da82608e8af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccconfiguration.h"
+          },
+          "hashes": {
+            "md5": "4c24d896a869510028a26326a03cb68f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccvalue.h"
+          },
+          "hashes": {
+            "md5": "7ee112ceaf8f254ba4d466587dbf6f15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccanimate3d.h"
+          },
+          "hashes": {
+            "md5": "45a6505bec7d765a65aac13dc7dd604f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccanimation3d.h"
+          },
+          "hashes": {
+            "md5": "299c8325aba4b328d641718382a03407"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccanimationcurve.h"
+          },
+          "hashes": {
+            "md5": "3343da90415bb020d8f37f9bac7797bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccanimationcurve.inl"
+          },
+          "hashes": {
+            "md5": "8f0ab81fe405bb3c90fe31244ac7ea80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccbundle3ddata.h"
+          },
+          "hashes": {
+            "md5": "3b0014d13d57ae61c9c919c0aaa358ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccaabb.h"
+          },
+          "hashes": {
+            "md5": "8d549a946970eea7a6219a47c9e8be0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/cc3dprograminfo.h"
+          },
+          "hashes": {
+            "md5": "cfbf7e7292e98a95ccad958cc869f9eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccaction.h"
+          },
+          "hashes": {
+            "md5": "b6c1410008bd2ed7d4272faa44879661"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccanimation.h"
+          },
+          "hashes": {
+            "md5": "bbacd126fabdcb0e2a2683e17543d6e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccspriteframe.h"
+          },
+          "hashes": {
+            "md5": "7b99f0f324c0a416b2ad2c85681db963"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccautopolygon.h"
+          },
+          "hashes": {
+            "md5": "ce2b373c3fd445bb84466305d377f968"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccimage.h"
+          },
+          "hashes": {
+            "md5": "82a5a0e371adb4e718cd30e7199a33d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cctrianglescommand.h"
+          },
+          "hashes": {
+            "md5": "4736fa0e777cdf9ece4dfd3da05e29b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccdata.h"
+          },
+          "hashes": {
+            "md5": "9ac9cfc71667a0f12bbbfea3b84f7d05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccimedelegate.h"
+          },
+          "hashes": {
+            "md5": "34fe953cb1636149d83d420fb1d391c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccimedispatcher.h"
+          },
+          "hashes": {
+            "md5": "6d46235c27110ff6becd9c9a2fe4cf79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccns.h"
+          },
+          "hashes": {
+            "md5": "d5686ff76706e611144bc8894cf200da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccprofiling.h"
+          },
+          "hashes": {
+            "md5": "b4a6e950e9d13cfbd6f5f750cabcec78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccproperties.h"
+          },
+          "hashes": {
+            "md5": "e93b8c92d6105c75d6fbaa3799faa88e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccrefptr.h"
+          },
+          "hashes": {
+            "md5": "0161dbd0036d03c9e2f1b071602466c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccuserdefault.h"
+          },
+          "hashes": {
+            "md5": "a9cc464e9d9e64bf5651fe8b05af15fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ziputils.h"
+          },
+          "hashes": {
+            "md5": "89be72659cde7c6261ce9b8b2462e996"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccfileutils.h"
+          },
+          "hashes": {
+            "md5": "111c2383ddf251461844247a46179ba3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/base64.h"
+          },
+          "hashes": {
+            "md5": "344a9dec925319a2cb08f93b09dce84b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccutf8.h"
+          },
+          "hashes": {
+            "md5": "4a360afdc267f197024c245a0e63ac6a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/ccutils.h"
+          },
+          "hashes": {
+            "md5": "ee801de6adaa6d1cafbb6f7cba196729"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventacceleration.h"
+          },
+          "hashes": {
+            "md5": "f7ac5483630a0f8c74b801c5be2caa10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventcustom.h"
+          },
+          "hashes": {
+            "md5": "348db66ac2815eb33f0c6676fece7b5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventdispatcher.h"
+          },
+          "hashes": {
+            "md5": "dc7b65eed0c1a2b5ff1572c52c73a172"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventfocus.h"
+          },
+          "hashes": {
+            "md5": "b3d8af99830fb1fac4f0f4a49504060c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlisteneracceleration.h"
+          },
+          "hashes": {
+            "md5": "788e74b326358c2c06a9463a79c3ef5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlistenerfocus.h"
+          },
+          "hashes": {
+            "md5": "709a6c65ae94d33ba961ef133a151c49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlistenerkeyboard.h"
+          },
+          "hashes": {
+            "md5": "6817b750ce537cbd99ea81648ae28b2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlistenermouse.h"
+          },
+          "hashes": {
+            "md5": "00b629ddb9b76322340f3ead3b07c410"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventmouse.h"
+          },
+          "hashes": {
+            "md5": "3f1186db7e917198f0db3cc654d7d1dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlistenercontroller.h"
+          },
+          "hashes": {
+            "md5": "40d6dc122723eb434228817b83e3179a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventlistenertouch.h"
+          },
+          "hashes": {
+            "md5": "93e43e11fbae57e4488a6c2dcffa660c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventcontroller.h"
+          },
+          "hashes": {
+            "md5": "030abf929d61da64c403020e590c90db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cccontroller.h"
+          },
+          "hashes": {
+            "md5": "76beb6150f6fb304864cb716e1d6dff6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cceventtype.h"
+          },
+          "hashes": {
+            "md5": "880b60f1f75ddbd15bfbcdfbab2768bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/ccvertex.h"
+          },
+          "hashes": {
+            "md5": "bb6e944352126a0da27e6ae0264f35e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/math/mathutil.h"
+          },
+          "hashes": {
+            "md5": "bd9b8989901dfefc8caf2b6103f0f207"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccactioncamera.h"
+          },
+          "hashes": {
+            "md5": "a2492afc923c902e8bb91972574ebf83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccactioncatmullrom.h"
+          },
+          "hashes": {
+            "md5": "abbb70b017006c8b30f919e677aec2ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctweenfunction.h"
+          },
+          "hashes": {
+            "md5": "dd6f1ec7e7e508e98fe09099b88e28fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccactionmanager.h"
+          },
+          "hashes": {
+            "md5": "fdf2cc54f79137c2eec33363def4e800"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccactionpageturn3d.h"
+          },
+          "hashes": {
+            "md5": "fdb7e839cdd23e49daf8cf7401ea7502"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccactiontween.h"
+          },
+          "hashes": {
+            "md5": "7184e260de9ec55004af5658ad4b7389"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccatlasnode.h"
+          },
+          "hashes": {
+            "md5": "b3ca9334e07cac4bdb752e5f2549f70c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccquadcommand.h"
+          },
+          "hashes": {
+            "md5": "506cd80b907324cc5047bd8a801810a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccclippingnode.h"
+          },
+          "hashes": {
+            "md5": "bd9a8493608059f187cc890f35c78692"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccgroupcommand.h"
+          },
+          "hashes": {
+            "md5": "b84be2f65ae1ca701fec00f12ad5b6a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cccallbackcommand.h"
+          },
+          "hashes": {
+            "md5": "561d3cb7c5bf66b96e3bc64b91039f12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccclippingrectanglenode.h"
+          },
+          "hashes": {
+            "md5": "4d2f86be33b691e5a43d4e307711cd69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccdrawnode.h"
+          },
+          "hashes": {
+            "md5": "0eac7cda4ab23e482cd20e6838adcf2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccfontfnt.h"
+          },
+          "hashes": {
+            "md5": "cd00472d0a93cf51517cbe5ea30cfef4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccfont.h"
+          },
+          "hashes": {
+            "md5": "128dd3067583f85034bccdd66b044c5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cclabel.h"
+          },
+          "hashes": {
+            "md5": "8cfa578877327fd95da6dd21aaf67d4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccfontatlas.h"
+          },
+          "hashes": {
+            "md5": "b2eb24c03e68d4e04c8e3c48e4537dcd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cclayer.h"
+          },
+          "hashes": {
+            "md5": "ca8cb230568cfb01904d9d5aadac415c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccmenuitem.h"
+          },
+          "hashes": {
+            "md5": "2bb7b4e12ed172cadc03cb20516a64a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccmotionstreak.h"
+          },
+          "hashes": {
+            "md5": "232a66aa34f2c038acd518c81ec5b38d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccnodegrid.h"
+          },
+          "hashes": {
+            "md5": "a4638debc77252cfb8ad6373e974048a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccparticlebatchnode.h"
+          },
+          "hashes": {
+            "md5": "b987becf17ab21c7302867d22301c55f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccparticleexamples.h"
+          },
+          "hashes": {
+            "md5": "20f0128ddff2afed036202894fc9670d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccparticlesystemquad.h"
+          },
+          "hashes": {
+            "md5": "59e56b70861bfb17d59565fb1d6d5e1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccparticlesystem.h"
+          },
+          "hashes": {
+            "md5": "33292f817129d0a5105ec7054f6f9270"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccprogresstimer.h"
+          },
+          "hashes": {
+            "md5": "49d7a1b4dc2b1452032ccaff66df5b19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccprotectednode.h"
+          },
+          "hashes": {
+            "md5": "1a9764fc97cd942a520841145786bd40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccrendertexture.h"
+          },
+          "hashes": {
+            "md5": "9ea7070f74cfe12cb14ea279136a9e52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccsprite.h"
+          },
+          "hashes": {
+            "md5": "ea0e02f8eb1b88c9af07abfa6dffe830"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cctextureatlas.h"
+          },
+          "hashes": {
+            "md5": "cc44d8751e5ad0dc3dd37f9ee3253072"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctransition.h"
+          },
+          "hashes": {
+            "md5": "236e9d8814c511bdcb8256871f912e7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctransitionpageturn.h"
+          },
+          "hashes": {
+            "md5": "2043d2bd25c495fcaafd75257b1cc26a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctransitionprogress.h"
+          },
+          "hashes": {
+            "md5": "90f45ddfc9ca6642ddcce2975cc1c68c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cccamera.h"
+          },
+          "hashes": {
+            "md5": "5b310fa8e05f249556da13f0c1d214a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccfrustum.h"
+          },
+          "hashes": {
+            "md5": "0ca53cfc4c64704e2635d322be554445"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccobb.h"
+          },
+          "hashes": {
+            "md5": "4f35bf0921d72b705d8a9fdf3a6b13b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccplane.h"
+          },
+          "hashes": {
+            "md5": "143297f715d7d064050cd4cf1f00ebbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cccamerabackgroundbrush.h"
+          },
+          "hashes": {
+            "md5": "279fdbf69c1fcd28695bdf440dd05657"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccgrid.h"
+          },
+          "hashes": {
+            "md5": "6cb666fc0a7d93aef658469cc334b89b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cclight.h"
+          },
+          "hashes": {
+            "md5": "99536ba7a109eddcd0f0f0eb51b2cb60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccmaterial.h"
+          },
+          "hashes": {
+            "md5": "634f5ecbac790fea9c7cd6bcb1d54cb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccrenderstate.h"
+          },
+          "hashes": {
+            "md5": "63418137c86a5df11e5afa1895de19ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccmeshcommand.h"
+          },
+          "hashes": {
+            "md5": "215ad39ef31fc0fb2825972a75e84018"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cctechnique.h"
+          },
+          "hashes": {
+            "md5": "776b54085977152a4e4c8d7467ec3c48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccpass.h"
+          },
+          "hashes": {
+            "md5": "c8fe425c58387f06eca481e4df5bd1af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccrendercommandpool.h"
+          },
+          "hashes": {
+            "md5": "1eeb27efef2dfd26a0e811320bcd317b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cctexturecube.h"
+          },
+          "hashes": {
+            "md5": "d754f570b5f0df15ac5b5f0207bb57e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/cctexturecache.h"
+          },
+          "hashes": {
+            "md5": "37f9537dc686918cd393092e780f4328"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/renderer/ccshaders.h"
+          },
+          "hashes": {
+            "md5": "fbda4f6deefcde8a04b3363cf129204b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/ccphysicscontact.h"
+          },
+          "hashes": {
+            "md5": "7ab46f6df8bc2ee462f57f67b0dd62fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/physics/ccphysicsworld.h"
+          },
+          "hashes": {
+            "md5": "21f173681f03c446ccbecc84aa5ce987"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccdevice.h"
+          },
+          "hashes": {
+            "md5": "d3e3d92c07686e8a49fe3ff68181dbf9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccsaxparser.h"
+          },
+          "hashes": {
+            "md5": "5ed52ba7c5c9071a8cfbe0f0fd2263a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/win32/ccapplication-win32.h"
+          },
+          "hashes": {
+            "md5": "8f2a62f86b6396c0bc00e141aed72080"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccapplicationprotocol.h"
+          },
+          "hashes": {
+            "md5": "54cd0c5a9e47ad0a4d995e94bf325ee8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/desktop/ccglviewimpl-desktop.h"
+          },
+          "hashes": {
+            "md5": "3e8f6e312e5ef3cc4c32a3b36c45f3bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/ccgl.h"
+          },
+          "hashes": {
+            "md5": "8856f6ba4a0701fe2d8ecf83c9468b83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/platform/win32/ccgl-win32.h"
+          },
+          "hashes": {
+            "md5": "81ca8fc461dc8925735e8668342bc1f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/external/win32-specific/gles/include/ogles/gl/glew.h"
+          },
+          "hashes": {
+            "md5": "fcc3a056eaf65205423645cb41d28f22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/external/glfw3/include/win32/glfw3.h"
+          },
+          "hashes": {
+            "md5": "e82b2309e5a07572302dc490d7ff0c76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/external/glfw3/include/win32/glfw3native.h"
+          },
+          "hashes": {
+            "md5": "ac3c29ac78f8b28cbdc489f58ada8527"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccanimationcache.h"
+          },
+          "hashes": {
+            "md5": "683b17f24b68927c61196f1f35169065"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccspritebatchnode.h"
+          },
+          "hashes": {
+            "md5": "7793f3f9009543c8fdbabb57becf52b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccspriteframecache.h"
+          },
+          "hashes": {
+            "md5": "1d9c75e8e22e94d1042fe33c651ae690"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctextfieldttf.h"
+          },
+          "hashes": {
+            "md5": "85a00d7e30713087a7c39c10c30e09c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccparallaxnode.h"
+          },
+          "hashes": {
+            "md5": "eb6aaaf475a4277514b90abe12e1fe7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctmxlayer.h"
+          },
+          "hashes": {
+            "md5": "2ff676a8a0e3de1b6974fcf1da454a8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctmxxmlparser.h"
+          },
+          "hashes": {
+            "md5": "bdf21d36a16cd2b4b53f3d181c3e5343"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctmxobjectgroup.h"
+          },
+          "hashes": {
+            "md5": "0226ca4b6bbd161a5056cac9ef878cd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/base/cccarray.h"
+          },
+          "hashes": {
+            "md5": "7fedc15b49a16869989af77dcb8ed7c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctmxtiledmap.h"
+          },
+          "hashes": {
+            "md5": "7fc6a903d169a36e131e4ad5b966871b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/cctilemapatlas.h"
+          },
+          "hashes": {
+            "md5": "76c8e284441fa5ad1f76ad20bf5c16ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccfasttmxlayer.h"
+          },
+          "hashes": {
+            "md5": "200f81db495e29e8d52a131019f3c6a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/2d/ccfasttmxtiledmap.h"
+          },
+          "hashes": {
+            "md5": "8b9873929bdfadc4ec6cb96648df138d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccattachnode.h"
+          },
+          "hashes": {
+            "md5": "00ab82e20ad818601edfa4afeeb834fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccbillboard.h"
+          },
+          "hashes": {
+            "md5": "bb5a8a8e659794e92c3190a9f2f09d00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccmesh.h"
+          },
+          "hashes": {
+            "md5": "bb3f76d7819d35dcb6a3a20b440d239c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccmeshskin.h"
+          },
+          "hashes": {
+            "md5": "c045458ffff7f3d9ac04c3cf1b1f1421"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccmotionstreak3d.h"
+          },
+          "hashes": {
+            "md5": "01817524831c0137c60b20ab8ac74f69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccmeshvertexindexdata.h"
+          },
+          "hashes": {
+            "md5": "96327dce9b288a06cd8ea7f81bb445d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccray.h"
+          },
+          "hashes": {
+            "md5": "973a90cc3cb4501b55fb0d50c9a91dbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccskeleton3d.h"
+          },
+          "hashes": {
+            "md5": "d60158c7924afd32675d2b35e6eab45e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccskybox.h"
+          },
+          "hashes": {
+            "md5": "cebb411ce6696a87132e592d1fdbd714"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccsprite3d.h"
+          },
+          "hashes": {
+            "md5": "b1ae8a54934d790bafe5f7fcb5776ef4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccsprite3dmaterial.h"
+          },
+          "hashes": {
+            "md5": "7c31e801ec6a3b720ca982c05667ac36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccterrain.h"
+          },
+          "hashes": {
+            "md5": "829ca889120264417b48d6ef9a2001e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/engine/cocos2d/cocos/3d/ccvertexattribbinding.h"
+          },
+          "hashes": {
+            "md5": "951f1c598c0d747f1d85c186e84d9a73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/pipestudio_2d_programmers_test/sources/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8b1aef3791e6c99d5a9750a43e158610"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/main.h"
+          },
+          "hashes": {
+            "md5": "a260fceb64b7f08ce2935990c75b872a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/appdelegate.h"
+          },
+          "hashes": {
+            "md5": "bd3a87496a0824473cf449dd802bce33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/block.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "5590d8c40ff54b39822254b73017c5ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/block.h"
+          },
+          "hashes": {
+            "md5": "f892a2fcd3986c50d480cbac05c0c777"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/ball.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "59f5351998adcac244f0abec5be411cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/pipestudio_2d_programmers_test/sources/ball.h"
+          },
+          "hashes": {
+            "md5": "01529ee24e84d1e4dcae8ef47bfa17c5"
+          }
+        }
+      ]
+    }
+  ]
+}

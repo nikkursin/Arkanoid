@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\sources\main.cpp" />
+    <ClCompile Include="..\sources\AppDelegate.cpp" />
+    <ClCompile Include="..\sources\ArkanoidLayer.cpp" />
+    <ClCompile Include="..\sources\Paddle.cpp" />
+    <ClCompile Include="..\sources\Block.cpp" />
+    <ClCompile Include="..\sources\Ball.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sources\main.h" />
+    <ClInclude Include="..\sources\AppDelegate.h" />
+    <ClInclude Include="..\sources\ArkanoidLayer.h" />
+    <ClInclude Include="..\sources\Paddle.h" />
+    <ClInclude Include="..\sources\Block.h" />
+    <ClInclude Include="..\sources\Ball.h" />
+  </ItemGroup>
+</Project>

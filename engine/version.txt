@@ -1,0 +1,2 @@
+https://www.cocos.com/en/cocos2dx
+ver. 4.0 (2019.12.04)
